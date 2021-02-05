@@ -27,7 +27,7 @@ import (
 )
 
 const (
-	DefaultConfigFile = "config.toml" // The default configuration file name.
+	DefaultConfigFile = "app.conf" // The default configuration file name.
 	cmdEnvKey         = "gf.gcfg"     // Configuration key for command argument or environment.
 )
 
@@ -41,7 +41,7 @@ type Config struct {
 
 var (
 	supportedFileTypes = []string{"toml", "yaml", "json", "ini", "xml"}
-	resourceTryFiles   = []string{"", "/", "config/", "config", "/config", "/config/"}
+	resourceTryFiles   = []string{"", "/", "conf/", "conf", "/conf", "/conf/"}
 )
 
 // New returns a new configuration management object.
