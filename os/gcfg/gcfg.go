@@ -305,7 +305,7 @@ func (c *Config) FilePath(file ...string) (path string) {
 		if path, _ = gspath.Search(prefix, name); path != "" {
 			return
 		}
-		if path, _ = gspath.Search(prefix+gfile.Separator+"config", name); path != "" {
+		if path, _ = gspath.Search(prefix+gfile.Separator+"conf", name); path != "" {
 			return
 		}
 	}
