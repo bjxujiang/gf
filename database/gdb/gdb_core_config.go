@@ -2,17 +2,17 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/bjxujiang/gf.
 
 package gdb
 
 import (
 	"fmt"
-	"github.com/gogf/gf/os/gcache"
+	"github.com/bjxujiang/gf/os/gcache"
 	"sync"
 	"time"
 
-	"github.com/gogf/gf/os/glog"
+	"github.com/bjxujiang/gf/os/glog"
 )
 
 const (

@@ -2,27 +2,27 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/bjxujiang/gf.
 
 package gdb_test
 
 import (
 	"database/sql"
 	"fmt"
-	"github.com/gogf/gf/container/garray"
-	"github.com/gogf/gf/container/gmap"
-	"github.com/gogf/gf/debug/gdebug"
-	"github.com/gogf/gf/encoding/gparser"
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/util/gutil"
+	"github.com/bjxujiang/gf/container/garray"
+	"github.com/bjxujiang/gf/container/gmap"
+	"github.com/bjxujiang/gf/debug/gdebug"
+	"github.com/bjxujiang/gf/encoding/gparser"
+	"github.com/bjxujiang/gf/os/gfile"
+	"github.com/bjxujiang/gf/util/gutil"
 	"testing"
 	"time"
 
-	"github.com/gogf/gf/database/gdb"
+	"github.com/bjxujiang/gf/database/gdb"
 
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/os/gtime"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/bjxujiang/gf/frame/g"
+	"github.com/bjxujiang/gf/os/gtime"
+	"github.com/bjxujiang/gf/test/gtest"
 )
 
 func Test_Model_Insert(t *testing.T) {
@@ -153,7 +153,7 @@ func Test_Model_Insert_Filter(t *testing.T) {
 	})
 }
 
-// Fix issue: https://github.com/gogf/gf/issues/819
+// Fix issue: https://github.com/bjxujiang/gf/issues/819
 func Test_Model_Insert_WithStructAndSliceAttribute(t *testing.T) {
 	table := createTable()
 	defer dropTable(table)
@@ -3011,7 +3011,7 @@ func Test_Model_HasField(t *testing.T) {
 	})
 }
 
-// Issue: https://github.com/gogf/gf/issues/1002
+// Issue: https://github.com/bjxujiang/gf/issues/1002
 func Test_Model_Issue1002(t *testing.T) {
 	table := createTable()
 	defer dropTable(table)
@@ -3140,7 +3140,7 @@ func createTableForTimeZoneTest() string {
 	return tableName
 }
 
-// https://github.com/gogf/gf/issues/1012
+// https://github.com/bjxujiang/gf/issues/1012
 func Test_TimeZoneInsert(t *testing.T) {
 	tableName := createTableForTimeZoneTest()
 	defer dropTable(tableName)

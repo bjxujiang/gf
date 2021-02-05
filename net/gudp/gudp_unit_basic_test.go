@@ -2,16 +2,16 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/bjxujiang/gf.
 
 package gudp_test
 
 import (
 	"fmt"
-	"github.com/gogf/gf/net/gudp"
-	"github.com/gogf/gf/os/glog"
-	"github.com/gogf/gf/test/gtest"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/bjxujiang/gf/net/gudp"
+	"github.com/bjxujiang/gf/os/glog"
+	"github.com/bjxujiang/gf/test/gtest"
+	"github.com/bjxujiang/gf/util/gconv"
 	"testing"
 	"time"
 )

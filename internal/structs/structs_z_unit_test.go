@@ -2,18 +2,18 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/bjxujiang/gf.
 
 package structs_test
 
 import (
 	"testing"
 
-	"github.com/gogf/gf/internal/structs"
+	"github.com/bjxujiang/gf/internal/structs"
 
-	"github.com/gogf/gf/frame/g"
+	"github.com/bjxujiang/gf/frame/g"
 
-	"github.com/gogf/gf/test/gtest"
+	"github.com/bjxujiang/gf/test/gtest"
 )
 
 func Test_Basic(t *testing.T) {

@@ -2,14 +2,14 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/bjxujiang/gf.
 
 package gfile
 
 import (
-	"github.com/gogf/gf/os/gcache"
-	"github.com/gogf/gf/os/gcmd"
-	"github.com/gogf/gf/os/gfsnotify"
+	"github.com/bjxujiang/gf/os/gcache"
+	"github.com/bjxujiang/gf/os/gcmd"
+	"github.com/bjxujiang/gf/os/gfsnotify"
 	"time"
 )
 

@@ -2,19 +2,19 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/bjxujiang/gf.
 
 package gdb
 
 import (
 	"fmt"
-	"github.com/gogf/gf/container/gset"
-	"github.com/gogf/gf/internal/empty"
-	"github.com/gogf/gf/os/gtime"
-	"github.com/gogf/gf/text/gregex"
-	"github.com/gogf/gf/text/gstr"
-	"github.com/gogf/gf/util/gconv"
-	"github.com/gogf/gf/util/gutil"
+	"github.com/bjxujiang/gf/container/gset"
+	"github.com/bjxujiang/gf/internal/empty"
+	"github.com/bjxujiang/gf/os/gtime"
+	"github.com/bjxujiang/gf/text/gregex"
+	"github.com/bjxujiang/gf/text/gstr"
+	"github.com/bjxujiang/gf/util/gconv"
+	"github.com/bjxujiang/gf/util/gutil"
 	"time"
 )
 

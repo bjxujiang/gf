@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/os/gtime"
+	"github.com/bjxujiang/gf/frame/g"
+	"github.com/bjxujiang/gf/os/gtime"
 )
 
 func main() {

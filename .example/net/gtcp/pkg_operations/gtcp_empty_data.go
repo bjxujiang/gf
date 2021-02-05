@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gogf/gf/net/gtcp"
-	"github.com/gogf/gf/os/glog"
+	"github.com/bjxujiang/gf/net/gtcp"
+	"github.com/bjxujiang/gf/os/glog"
 )
 
 func main() {

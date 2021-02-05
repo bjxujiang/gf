@@ -2,26 +2,26 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/bjxujiang/gf.
 
 package gdb_test
 
 import (
 	"context"
 	"fmt"
-	"github.com/gogf/gf/container/garray"
-	"github.com/gogf/gf/encoding/gparser"
-	"github.com/gogf/gf/text/gstr"
+	"github.com/bjxujiang/gf/container/garray"
+	"github.com/bjxujiang/gf/encoding/gparser"
+	"github.com/bjxujiang/gf/text/gstr"
 	"testing"
 	"time"
 
-	"github.com/gogf/gf/database/gdb"
-	"github.com/gogf/gf/encoding/gjson"
-	"github.com/gogf/gf/encoding/gxml"
+	"github.com/bjxujiang/gf/database/gdb"
+	"github.com/bjxujiang/gf/encoding/gjson"
+	"github.com/bjxujiang/gf/encoding/gxml"
 
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/os/gtime"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/bjxujiang/gf/frame/g"
+	"github.com/bjxujiang/gf/os/gtime"
+	"github.com/bjxujiang/gf/test/gtest"
 )
 
 func Test_DB_Ping(t *testing.T) {
@@ -186,7 +186,7 @@ func Test_DB_Insert(t *testing.T) {
 	})
 }
 
-// Fix issue: https://github.com/gogf/gf/issues/819
+// Fix issue: https://github.com/bjxujiang/gf/issues/819
 func Test_DB_Insert_WithStructAndSliceAttribute(t *testing.T) {
 	table := createTable()
 	defer dropTable(table)

@@ -2,17 +2,17 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/bjxujiang/gf.
 
 package gdb
 
 import (
 	"database/sql"
-	"github.com/gogf/gf/errors/gerror"
-	"github.com/gogf/gf/os/gtime"
-	"github.com/gogf/gf/text/gstr"
-	"github.com/gogf/gf/util/gconv"
-	"github.com/gogf/gf/util/gutil"
+	"github.com/bjxujiang/gf/errors/gerror"
+	"github.com/bjxujiang/gf/os/gtime"
+	"github.com/bjxujiang/gf/text/gstr"
+	"github.com/bjxujiang/gf/util/gconv"
+	"github.com/bjxujiang/gf/util/gutil"
 	"reflect"
 )
 

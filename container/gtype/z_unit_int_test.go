@@ -2,15 +2,15 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/bjxujiang/gf.
 
 package gtype_test
 
 import (
-	"github.com/gogf/gf/container/gtype"
-	"github.com/gogf/gf/internal/json"
-	"github.com/gogf/gf/test/gtest"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/bjxujiang/gf/container/gtype"
+	"github.com/bjxujiang/gf/internal/json"
+	"github.com/bjxujiang/gf/test/gtest"
+	"github.com/bjxujiang/gf/util/gconv"
 	"sync"
 	"testing"
 )

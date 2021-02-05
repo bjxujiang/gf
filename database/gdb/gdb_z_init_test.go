@@ -2,19 +2,19 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/bjxujiang/gf.
 
 package gdb_test
 
 import (
 	"fmt"
-	"github.com/gogf/gf/container/garray"
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/os/gcmd"
+	"github.com/bjxujiang/gf/container/garray"
+	"github.com/bjxujiang/gf/frame/g"
+	"github.com/bjxujiang/gf/os/gcmd"
 
-	"github.com/gogf/gf/database/gdb"
-	"github.com/gogf/gf/os/gtime"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/bjxujiang/gf/database/gdb"
+	"github.com/bjxujiang/gf/os/gtime"
+	"github.com/bjxujiang/gf/test/gtest"
 )
 
 const (

@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/gogf/gf/crypto/gaes"
-	"github.com/gogf/gf/database/gdb"
-	"github.com/gogf/gf/frame/g"
+	"github.com/bjxujiang/gf/crypto/gaes"
+	"github.com/bjxujiang/gf/database/gdb"
+	"github.com/bjxujiang/gf/frame/g"
 )
 
 func main() {

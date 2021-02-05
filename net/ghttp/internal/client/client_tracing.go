@@ -2,16 +2,16 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/bjxujiang/gf.
 
 package client
 
 import (
 	"fmt"
-	"github.com/gogf/gf"
-	"github.com/gogf/gf/internal/utils"
-	"github.com/gogf/gf/net/ghttp/internal/httputil"
-	"github.com/gogf/gf/net/gtrace"
+	"github.com/bjxujiang/gf"
+	"github.com/bjxujiang/gf/internal/utils"
+	"github.com/bjxujiang/gf/net/ghttp/internal/httputil"
+	"github.com/bjxujiang/gf/net/gtrace"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/label"
@@ -24,7 +24,7 @@ import (
 
 const (
 	tracingMaxContentLogSize        = 512 * 1024 // Max log size for request and response body.
-	tracingInstrumentName           = "github.com/gogf/gf/net/ghttp.Client"
+	tracingInstrumentName           = "github.com/bjxujiang/gf/net/ghttp.Client"
 	tracingAttrHttpAddressRemote    = "http.address.remote"
 	tracingAttrHttpAddressLocal     = "http.address.local"
 	tracingAttrHttpDnsStart         = "http.dns.start"

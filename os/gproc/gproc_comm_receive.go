@@ -2,21 +2,21 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/bjxujiang/gf.
 
 package gproc
 
 import (
 	"fmt"
-	"github.com/gogf/gf/internal/json"
+	"github.com/bjxujiang/gf/internal/json"
 	"net"
 
-	"github.com/gogf/gf/container/gqueue"
-	"github.com/gogf/gf/container/gtype"
-	"github.com/gogf/gf/net/gtcp"
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/os/glog"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/bjxujiang/gf/container/gqueue"
+	"github.com/bjxujiang/gf/container/gtype"
+	"github.com/bjxujiang/gf/net/gtcp"
+	"github.com/bjxujiang/gf/os/gfile"
+	"github.com/bjxujiang/gf/os/glog"
+	"github.com/bjxujiang/gf/util/gconv"
 )
 
 var (

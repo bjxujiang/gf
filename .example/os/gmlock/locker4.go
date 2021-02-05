@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gogf/gf/os/glog"
-	"github.com/gogf/gf/os/gmlock"
+	"github.com/bjxujiang/gf/os/glog"
+	"github.com/bjxujiang/gf/os/gmlock"
 )
 
 // 内存锁 - 手动Unlock与计时Unlock冲突校验

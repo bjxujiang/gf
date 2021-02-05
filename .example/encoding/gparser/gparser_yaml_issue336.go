@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/gogf/gf/encoding/gparser"
+	"github.com/bjxujiang/gf/encoding/gparser"
 )
 
 type Conf struct {

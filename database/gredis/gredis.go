@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/bjxujiang/gf.
 
 // Package gredis provides convenient client for redis server.
 //
@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gogf/gf/container/gmap"
-	"github.com/gogf/gf/container/gvar"
+	"github.com/bjxujiang/gf/container/gmap"
+	"github.com/bjxujiang/gf/container/gvar"
 	"github.com/gomodule/redigo/redis"
 )
 

@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gogf/gf/os/gmlock"
+	"github.com/bjxujiang/gf/os/gmlock"
 )
 
 // 测试是否会产生死锁

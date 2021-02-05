@@ -2,22 +2,22 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/bjxujiang/gf.
 
 // Package gproc implements management and communication for processes.
 package gproc
 
 import (
 	"bytes"
-	"github.com/gogf/gf/os/genv"
-	"github.com/gogf/gf/text/gstr"
+	"github.com/bjxujiang/gf/os/genv"
+	"github.com/bjxujiang/gf/text/gstr"
 	"io"
 	"os"
 	"runtime"
 	"time"
 
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/bjxujiang/gf/os/gfile"
+	"github.com/bjxujiang/gf/util/gconv"
 )
 
 const (

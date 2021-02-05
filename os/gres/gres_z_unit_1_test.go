@@ -2,20 +2,20 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/bjxujiang/gf.
 
 package gres_test
 
 import (
-	"github.com/gogf/gf/os/gtime"
+	"github.com/bjxujiang/gf/os/gtime"
 	"strings"
 	"testing"
 
-	"github.com/gogf/gf/os/gfile"
+	"github.com/bjxujiang/gf/os/gfile"
 
-	"github.com/gogf/gf/debug/gdebug"
-	"github.com/gogf/gf/os/gres"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/bjxujiang/gf/debug/gdebug"
+	"github.com/bjxujiang/gf/os/gres"
+	"github.com/bjxujiang/gf/test/gtest"
 )
 
 func Test_PackToGoFile(t *testing.T) {

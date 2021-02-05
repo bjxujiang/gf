@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/bjxujiang/gf.
 
 package ghttp_test
 
@@ -13,11 +13,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gogf/gf/encoding/gjson"
+	"github.com/bjxujiang/gf/encoding/gjson"
 
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/net/ghttp"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/bjxujiang/gf/frame/g"
+	"github.com/bjxujiang/gf/net/ghttp"
+	"github.com/bjxujiang/gf/test/gtest"
 )
 
 func Test_Params_Basic(t *testing.T) {

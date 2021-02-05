@@ -2,15 +2,15 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/bjxujiang/gf.
 
 package gdb
 
 import (
 	"context"
 	"database/sql"
-	"github.com/gogf/gf/errors/gerror"
-	"github.com/gogf/gf/os/gtime"
+	"github.com/bjxujiang/gf/errors/gerror"
+	"github.com/bjxujiang/gf/os/gtime"
 )
 
 // Stmt is a prepared statement.

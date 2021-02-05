@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/gogf/gf/.example/net/gtcp/pkg_operations/common/types"
-	"github.com/gogf/gf/net/gtcp"
+	"github.com/bjxujiang/gf/.example/net/gtcp/pkg_operations/common/types"
+	"github.com/bjxujiang/gf/net/gtcp"
 )
 
 // 自定义格式发送消息包

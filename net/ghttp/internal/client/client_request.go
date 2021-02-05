@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/bjxujiang/gf.
 
 package client
 
@@ -11,10 +11,10 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/gogf/gf/internal/intlog"
-	"github.com/gogf/gf/internal/json"
-	"github.com/gogf/gf/internal/utils"
-	"github.com/gogf/gf/net/ghttp/internal/httputil"
+	"github.com/bjxujiang/gf/internal/intlog"
+	"github.com/bjxujiang/gf/internal/json"
+	"github.com/bjxujiang/gf/internal/utils"
+	"github.com/bjxujiang/gf/net/ghttp/internal/httputil"
 	"io"
 	"io/ioutil"
 	"mime/multipart"
@@ -23,12 +23,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gogf/gf/encoding/gparser"
-	"github.com/gogf/gf/text/gregex"
-	"github.com/gogf/gf/text/gstr"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/bjxujiang/gf/encoding/gparser"
+	"github.com/bjxujiang/gf/text/gregex"
+	"github.com/bjxujiang/gf/text/gstr"
+	"github.com/bjxujiang/gf/util/gconv"
 
-	"github.com/gogf/gf/os/gfile"
+	"github.com/bjxujiang/gf/os/gfile"
 )
 
 // Get send GET request and returns the response object.

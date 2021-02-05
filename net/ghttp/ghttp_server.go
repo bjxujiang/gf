@@ -2,33 +2,33 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/bjxujiang/gf.
 
 package ghttp
 
 import (
 	"bytes"
-	"github.com/gogf/gf/debug/gdebug"
-	"github.com/gogf/gf/errors/gerror"
-	"github.com/gogf/gf/internal/intlog"
+	"github.com/bjxujiang/gf/debug/gdebug"
+	"github.com/bjxujiang/gf/errors/gerror"
+	"github.com/bjxujiang/gf/internal/intlog"
 	"net/http"
 	"os"
 	"runtime"
 	"strings"
 	"time"
 
-	"github.com/gogf/gf/os/gsession"
+	"github.com/bjxujiang/gf/os/gsession"
 
-	"github.com/gogf/gf/container/garray"
-	"github.com/gogf/gf/container/gtype"
-	"github.com/gogf/gf/os/gcache"
-	"github.com/gogf/gf/os/genv"
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/os/glog"
-	"github.com/gogf/gf/os/gproc"
-	"github.com/gogf/gf/os/gtimer"
-	"github.com/gogf/gf/text/gregex"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/bjxujiang/gf/container/garray"
+	"github.com/bjxujiang/gf/container/gtype"
+	"github.com/bjxujiang/gf/os/gcache"
+	"github.com/bjxujiang/gf/os/genv"
+	"github.com/bjxujiang/gf/os/gfile"
+	"github.com/bjxujiang/gf/os/glog"
+	"github.com/bjxujiang/gf/os/gproc"
+	"github.com/bjxujiang/gf/os/gtimer"
+	"github.com/bjxujiang/gf/text/gregex"
+	"github.com/bjxujiang/gf/util/gconv"
 	"github.com/olekukonko/tablewriter"
 )
 

@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/bjxujiang/gf.
 
 // Package gcfg provides reading, caching and managing for configuration.
 package gcfg
@@ -11,24 +11,24 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"github.com/gogf/gf/internal/intlog"
-	"github.com/gogf/gf/os/gcmd"
-	"github.com/gogf/gf/text/gstr"
+	"github.com/bjxujiang/gf/internal/intlog"
+	"github.com/bjxujiang/gf/os/gcmd"
+	"github.com/bjxujiang/gf/text/gstr"
 
-	"github.com/gogf/gf/os/gres"
+	"github.com/bjxujiang/gf/os/gres"
 
-	"github.com/gogf/gf/container/garray"
-	"github.com/gogf/gf/container/gmap"
-	"github.com/gogf/gf/encoding/gjson"
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/os/gfsnotify"
-	"github.com/gogf/gf/os/glog"
-	"github.com/gogf/gf/os/gspath"
+	"github.com/bjxujiang/gf/container/garray"
+	"github.com/bjxujiang/gf/container/gmap"
+	"github.com/bjxujiang/gf/encoding/gjson"
+	"github.com/bjxujiang/gf/os/gfile"
+	"github.com/bjxujiang/gf/os/gfsnotify"
+	"github.com/bjxujiang/gf/os/glog"
+	"github.com/bjxujiang/gf/os/gspath"
 )
 
 const (
 	DefaultConfigFile = "app.conf" // The default configuration file name.
-	cmdEnvKey         = "gf.gcfg"     // Configuration key for command argument or environment.
+	cmdEnvKey         = "gf.gcfg"  // Configuration key for command argument or environment.
 )
 
 // Configuration struct.

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gogf/gf/container/gpool"
+	"github.com/bjxujiang/gf/container/gpool"
 )
 
 func main() {

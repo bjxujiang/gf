@@ -2,13 +2,13 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/bjxujiang/gf.
 
 package gvar_test
 
 import (
-	"github.com/gogf/gf/container/gvar"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/bjxujiang/gf/container/gvar"
+	"github.com/bjxujiang/gf/test/gtest"
 	"testing"
 )
 

@@ -2,16 +2,16 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/bjxujiang/gf.
 
 package g
 
 import (
-	"github.com/gogf/gf/container/gvar"
-	"github.com/gogf/gf/internal/empty"
-	"github.com/gogf/gf/net/ghttp"
-	"github.com/gogf/gf/os/gproc"
-	"github.com/gogf/gf/util/gutil"
+	"github.com/bjxujiang/gf/container/gvar"
+	"github.com/bjxujiang/gf/internal/empty"
+	"github.com/bjxujiang/gf/net/ghttp"
+	"github.com/bjxujiang/gf/os/gproc"
+	"github.com/bjxujiang/gf/util/gutil"
 )
 
 // NewVar returns a gvar.Var.

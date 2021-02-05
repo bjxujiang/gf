@@ -2,28 +2,28 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/bjxujiang/gf.
 
 package gi18n_test
 
 import (
 	"testing"
 
-	"github.com/gogf/gf/os/gres"
+	"github.com/bjxujiang/gf/os/gres"
 
-	"github.com/gogf/gf/os/gtime"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/bjxujiang/gf/os/gtime"
+	"github.com/bjxujiang/gf/util/gconv"
 
-	"github.com/gogf/gf/frame/g"
+	"github.com/bjxujiang/gf/frame/g"
 
-	"github.com/gogf/gf/i18n/gi18n"
+	"github.com/bjxujiang/gf/i18n/gi18n"
 
-	"github.com/gogf/gf/debug/gdebug"
-	"github.com/gogf/gf/os/gfile"
+	"github.com/bjxujiang/gf/debug/gdebug"
+	"github.com/bjxujiang/gf/os/gfile"
 
-	"github.com/gogf/gf/test/gtest"
+	"github.com/bjxujiang/gf/test/gtest"
 
-	_ "github.com/gogf/gf/os/gres/testdata/data"
+	_ "github.com/bjxujiang/gf/os/gres/testdata/data"
 )
 
 func Test_Basic(t *testing.T) {
