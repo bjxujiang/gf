@@ -16,6 +16,6 @@ func main() {
 	g.Config().SetFileName("my.ini")
 	g.Dump(g.Config().Get("redis"))
 
-	g.Config().SetFileName("config.toml")
+	g.Config().SetFileName("app.conf")
 	g.Dump(g.Config().Get("redis"))
 }
