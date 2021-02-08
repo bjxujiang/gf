@@ -41,7 +41,7 @@ type Config struct {
 
 var (
 	supportedFileTypes = []string{"toml", "yaml", "json", "ini", "xml"}
-	resourceTryFiles   = []string{"", "/", "conf/", "conf", "/conf", "/conf/"}
+	resourceTryFiles   = []string{"", "/", "../conf/", "conf/", "conf", "/conf", "/conf/"}
 )
 
 // New returns a new configuration management object.
@@ -56,6 +56,9 @@ func New(file ...string) *Config {
 			name = customFile
 		}
 	}
+	car := garray.New(true)
+	car.Append("../conf")
+	car.Append("conf")
 	c := &Config{
 		defaultName: name,
 		searchPaths: garray.NewStrArray(true),
