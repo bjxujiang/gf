@@ -56,9 +56,6 @@ func New(file ...string) *Config {
 			name = customFile
 		}
 	}
-	car := garray.New(true)
-	car.Append("../conf")
-	car.Append("conf")
 	c := &Config{
 		defaultName: name,
 		searchPaths: garray.NewStrArray(true),
@@ -93,9 +90,17 @@ func (c *Config) getSearchPaths() []string {
 		searchPaths = c.searchPaths.Slice()
 		mainPkgPath = gfile.MainPkgPath()
 	)
+
 	if mainPkgPath != "" {
 		if !gstr.InArray(searchPaths, mainPkgPath) {
 			searchPaths = append([]string{mainPkgPath}, searchPaths...)
+		}
+	}
+	if len(searchPaths) == 1 {
+		pp := searchPaths[0]
+		talpp := pp[len(pp)-3:]
+		if talpp == "bin" {
+			searchPaths = append(searchPaths, pp[:len(pp)-4])
 		}
 	}
 	return searchPaths
@@ -305,9 +310,11 @@ func (c *Config) FilePath(file ...string) (path string) {
 	// Searching the file system.
 	for _, prefix := range searchPaths {
 		prefix = gstr.TrimRight(prefix, `\/`)
+
 		if path, _ = gspath.Search(prefix, name); path != "" {
 			return
 		}
+
 		if path, _ = gspath.Search(prefix+gfile.Separator+"conf", name); path != "" {
 			return
 		}
